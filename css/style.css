@@ -20,6 +20,12 @@
   .whatsapp img {
     width: 70px; }
 
+article img {
+  border-image: 30px solid #12490d; }
+
+main secction div img {
+  border-image: 30px solid #12490d; }
+
 .img {
   transition: all 0.3s ease-in-out;
   cursor: pointer; }

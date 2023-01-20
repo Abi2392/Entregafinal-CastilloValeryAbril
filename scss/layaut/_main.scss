@@ -10,3 +10,19 @@
         width: 70px;
     }
 }
+
+article {
+    img{
+        @include bordes;
+    }
+}
+
+main{
+    secction {
+        div{
+            img {
+                @include bordes;
+            }
+        }
+    }
+}
