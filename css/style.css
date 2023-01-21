@@ -26,6 +26,13 @@ article img {
 main secction div img {
   border-image: 30px solid #12490d; }
 
+.site_map ul li {
+  text-align: center;
+  padding: 5rem;
+  list-style: none; }
+  .site_map ul li a {
+    text-decoration: none; }
+
 .img {
   transition: all 0.3s ease-in-out;
   cursor: pointer; }
