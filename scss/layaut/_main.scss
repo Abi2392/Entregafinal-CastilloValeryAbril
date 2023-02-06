@@ -39,3 +39,87 @@ main{
         }
     }
 }
+
+#galeria {
+    div {
+        img {
+            @include efecto;
+            @include bordes;
+        }
+    }
+
+}
+
+                                                                        /*BLOG*/
+
+.contenedor_blog {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    p {
+        margin: 10px;
+        text-align: justify;
+    }
+}
+
+.articulo_actual {
+    background-color: aliceblue;
+    width: 74%;
+    height: 1300px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow: auto;
+    img {
+        width: 100%;
+    }
+    h2 {
+    text-align: center;
+    color: #008000;
+    }
+}
+
+.otros_articulos {
+    background-color: aliceblue;
+    width: 24%;
+    height: 1300px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 5px;
+    img {
+        border-radius: 20px;
+        width: 100%;
+    }
+    h4 {
+        text-align: center;
+        color: #008000;
+    }
+}
+
+#boton_nuevo_articulo {
+    img {
+    width: 19px;
+    }
+    #boton_borradores {
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    &:hover {
+        background-color: darkgrey;   
+    }
+    }
+    &:hover {
+        background-color: darkgrey;
+    }
+}
+
+    
+
+

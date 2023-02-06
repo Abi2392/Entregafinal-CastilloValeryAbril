@@ -33,9 +33,82 @@ main secction div img {
   .site_map ul li a {
     text-decoration: none; }
 
+.contenedor_blog {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+  .contenedor_blog p {
+    margin: 10px;
+    text-align: justify; }
+
+.articulo_actual {
+  background-color: aliceblue;
+  width: 74%;
+  height: 1300px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 20px;
+  overflow: auto; }
+  .articulo_actual img {
+    width: 100%; }
+  .articulo_actual h2 {
+    text-align: center;
+    color: #008000; }
+
+.otros_articulos {
+  background-color: aliceblue;
+  width: 24%;
+  height: 1300px;
+  float: left;
+  margin-left: 10px;
+  border-radius: 20px;
+  overflow: auto;
+  padding: 5px; }
+  .otros_articulos img {
+    border-radius: 20px;
+    width: 100%; }
+  .otros_articulos h4 {
+    text-align: center;
+    color: #008000; }
+
+#boton_nuevo_articulo img {
+  width: 19px; }
+
+#boton_nuevo_articulo #boton_borradores {
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none; }
+  #boton_nuevo_articulo #boton_borradores:hover {
+    background-color: darkgrey; }
+
+#boton_nuevo_articulo:hover {
+  background-color: darkgrey; }
+
+.main_home h1 {
+  text-align: justify; }
+
+.main_home div a img {
+  width: 20%; }
+
+.contenedor_mis_articulos {
+  columns: 3 500px;
+  column-gap: 1em; }
+
+.img_articulo {
+  width: 100%;
+  margin: 0.5em;
+  outline: 3px solid white;
+  outline-offset: -10px; }
+
 .img {
   transition: all 0.3s ease-in-out;
-  cursor: pointer; }
+  cursor: pointer;
+  max-width: 70px; }
   .img:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 50px -15px; }
