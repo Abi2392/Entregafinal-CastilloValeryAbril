@@ -40,16 +40,10 @@ main{
     }
 }
 
-#galeria {
-    div {
-        img {
+.galeria {
             @include efecto;
             @include bordes;
-        }
-    }
-
 }
-
                                                                         /*BLOG*/
 
 .contenedor_blog {

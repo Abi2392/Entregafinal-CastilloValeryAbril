@@ -33,6 +33,15 @@ main secction div img {
   .site_map ul li a {
     text-decoration: none; }
 
+.galeria {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-image: 30px solid #12490d; }
+  .galeria:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px -15px; }
+
+/*BLOG*/
 .contenedor_blog {
   width: 100%;
   margin: 0;
@@ -88,22 +97,6 @@ main secction div img {
 
 #boton_nuevo_articulo:hover {
   background-color: darkgrey; }
-
-.main_home h1 {
-  text-align: justify; }
-
-.main_home div a img {
-  width: 20%; }
-
-.contenedor_mis_articulos {
-  columns: 3 500px;
-  column-gap: 1em; }
-
-.img_articulo {
-  width: 100%;
-  margin: 0.5em;
-  outline: 3px solid white;
-  outline-offset: -10px; }
 
 .img {
   transition: all 0.3s ease-in-out;
